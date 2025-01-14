@@ -338,14 +338,13 @@ namespace NDiffMatchPatch
                 return to_wstring( string, false );
             else if constexpr ( is_charstar< STRING_TYPE >::value )
                 return to_wstring( std::string( string ? string : "" ), false );
-            else if constexpr( std::is_same_v< char, STRING_TYPE > )
+            else if constexpr ( std::is_same_v< char, STRING_TYPE > )
                 return to_wstring( string, false );
-            else if constexpr( std::is_same_v< wchar_t, STRING_TYPE > )
+            else if constexpr ( std::is_same_v< wchar_t, STRING_TYPE > )
                 return to_wstring( string, false );
         }
 
     }
 }
-
 
 #endif
