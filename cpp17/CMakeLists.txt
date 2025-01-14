@@ -18,7 +18,7 @@ target_link_libraries( ${_PROJECT_NAME} )
 
 SET( TEST_NAME "${_PROJECT_NAME}_test" )
 project( ${TEST_NAME} )
-add_executable( ${TEST_NAME} diff_match_patch_test.cpp diff_match_patch_test.h diff_match_patch_test_assertEquals.cpp)
+add_executable( ${TEST_NAME} diff_match_patch_test.cpp diff_match_patch_test.h diff_match_patch_test_utils.cpp)
 
 target_include_directories( ${TEST_NAME} PUBLIC ${CMAKE_SOURCE_DIR})
 if( USE_GTEST )

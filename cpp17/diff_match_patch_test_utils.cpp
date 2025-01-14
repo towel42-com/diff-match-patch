@@ -147,7 +147,6 @@ namespace NDiffMatchPatch
             {
                 text[ 0 ] += myDiff.text();
             }
-            
             if ( !myDiff.isDelete() )
             {
                 text[ 1 ] += myDiff.text();
