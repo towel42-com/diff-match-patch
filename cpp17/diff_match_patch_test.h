@@ -171,4 +171,5 @@ namespace NDiffMatchPatch
         TStringVector diff_rebuildtexts( const NDiffMatchPatch::TDiffVector &diffs );
     };
 }
+
 #endif   // DIFF_MATCH_PATCH_TEST_H

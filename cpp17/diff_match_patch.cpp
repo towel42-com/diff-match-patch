@@ -72,7 +72,6 @@ namespace NDiffMatchPatch
     std::wstring Diff::toString( EStringType stringType ) const
     {
         std::wstring retVal;
-
         if ( stringType == EStringType::ePatch )
         {
             switch ( fOperation )

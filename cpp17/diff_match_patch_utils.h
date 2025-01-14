@@ -53,6 +53,7 @@ namespace NDiffMatchPatch
         std::wstring safeMid( const std::wstring &str, std::size_t pos, std::size_t len );
 
         /**
+
  * replaces QString::replace
  * @param haystack String to replace all needles with to
  * @param needle Substring to search for in the haystack
@@ -345,5 +346,6 @@ namespace NDiffMatchPatch
 
     }
 }
+
 
 #endif
